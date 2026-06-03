@@ -14,6 +14,7 @@ import cuidadodelmbiente from "./assets/cuidadodelmbiente.jpg"
 import prevencion from "./assets/prevencion.jpg"
 import trabajoenequipo from "./assets/trabajoenequipo.jpg"
 import PPT2 from "./assets/PPT2.png"
+import { Link } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
 
@@ -510,9 +511,12 @@ export default function App() {
             o conocer más sobre nuestros proyectos.
           </p>
 
-          <button className="px-10 py-5 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300">
-            Contactar
-          </button>
+          <Link
+  to="/contacto"
+  className="px-10 py-5 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300 inline-block"
+>
+  Contactar
+</Link>
 
         </div>
       </section>
