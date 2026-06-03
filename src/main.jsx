@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
+import Contacto from "./pages/Contacto"
 
 import {
   BrowserRouter,
@@ -16,13 +17,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
 
       <Routes>
-        <Route path="/" element={<App />} />
-
-        <Route
-          path="/observatorio"
-          element={<Observatorio />}
-        />
-      </Routes>
+  <Route path="/" element={<App />} />
+  <Route path="/observatorio" element={<Observatorio />} />
+  <Route path="/contacto" element={<Contacto />} />
+</Routes>
 
     </BrowserRouter>
   </React.StrictMode>
