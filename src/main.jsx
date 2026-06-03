@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
 import Contacto from "./pages/Contacto"
+import Proyectos from "./pages/Proyectos"
 
 import {
   BrowserRouter,
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Route path="/" element={<App />} />
   <Route path="/observatorio" element={<Observatorio />} />
   <Route path="/contacto" element={<Contacto />} />
+  <Route path="/proyectos" element={<Proyectos />} />
 </Routes>
 
     </BrowserRouter>

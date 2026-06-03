@@ -77,12 +77,12 @@ export default function App() {
               Conocer Más
             </a>
 
-            <a
-  href="#proyectos"
+            <Link
+  to="/proyectos"
   className="px-10 py-5 rounded-full border border-white/30 hover:bg-white/10 transition duration-300 inline-block text-center"
 >
   Nuestros objetivos
-</a>
+</Link>
 
           </div>
         </div>
