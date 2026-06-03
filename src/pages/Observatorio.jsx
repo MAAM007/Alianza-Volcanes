@@ -1,4 +1,4 @@
-import observatorio from "../assets/observatorio.png"
+import observatorio from "../assets/Observatorio.png"
 import Navbar from "../components/Navbar"
 
 export default function Observatorio() {
@@ -7,7 +7,7 @@ export default function Observatorio() {
 
   className="min-h-screen text-white bg-cover bg-center relative"
   style={{
-    backgroundImage: `url(${observatorio})`,
+    backgroundImage: `url(${Observatorio})`,
   }}
   
 >
