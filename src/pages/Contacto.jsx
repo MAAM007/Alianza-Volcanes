@@ -32,7 +32,7 @@ export default function Contacto() {
           <div>
             <label className="block mb-2">Municipio</label>
 
-            <select className="w-full p-4 rounded-xl bg-white/10 border border-white/20">
+            <select className="w-full p-4 rounded-xl bg-white text-black border border-white/20">
               <option>Amecameca</option>
               <option>Atlautla</option>
               <option>Ayapango</option>
