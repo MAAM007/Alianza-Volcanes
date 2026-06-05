@@ -71,12 +71,12 @@ export default function App() {
           {/* Botones */}
           <div className="flex flex-col sm:flex-row gap-5">
 
-            <a
-              href="#conocenos"
-              className="px-10 py-5 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300 inline-block text-center"
-            >
-              Conocer Más
-            </a>
+            <Link
+  to="/reglamento"
+  className="px-10 py-5 rounded-full bg-white text-black font-semibold hover:scale-105 transition duration-300 inline-block text-center"
+>
+  Reglamento
+</Link>
 
             <Link
   to="/proyectos"

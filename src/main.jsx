@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client"
 import "./index.css"
 import Contacto from "./pages/Contacto"
 import Proyectos from "./pages/Proyectos"
+import Reglamento from "./pages/Reglamento"
 
 import {
   BrowserRouter,
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Route path="/observatorio" element={<Observatorio />} />
   <Route path="/contacto" element={<Contacto />} />
   <Route path="/proyectos" element={<Proyectos />} />
+  <Route path="/reglamento" element={<Reglamento />} />
 </Routes>
 
     </BrowserRouter>
