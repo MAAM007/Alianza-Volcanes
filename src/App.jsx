@@ -16,6 +16,7 @@ import trabajoenequipo from "./assets/trabajoenequipo.jpg"
 import PPT2 from "./assets/PPT2.png"
 import { Link } from "react-router-dom"
 
+
 import Navbar from "./components/Navbar"
 
 
@@ -81,7 +82,7 @@ export default function App() {
   to="/proyectos"
   className="px-10 py-5 rounded-full border border-white/30 hover:bg-white/10 transition duration-300 inline-block text-center"
 >
-  Nuestros objetivos
+  Ejes de trabajo
 </Link>
 
           </div>
@@ -93,7 +94,7 @@ export default function App() {
       {/* Conócenos */}
       <section
         id="conocenos"
-        className="relative z-10 px-10 md:px-24 py-32 bg-black/40 backdrop-blur-sm"
+        className="relative z-10 px-10 md:px-24 py-32 bg-black"
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 

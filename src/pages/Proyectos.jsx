@@ -1,22 +1,30 @@
 import Navbar from "../components/Navbar"
+import ejes from "../assets/ejes.png"
 
-import comunidadyparticipacion from "../assets/comunidadyparticipacion.jpg"
-import masoportunidadeseconomicas from "../assets/masoportunidadeseconomicas.jpg"
-import mejorcalidaddevida from "../assets/mejorcalidaddevida.jpg"
-import planeaciondelaregion from "../assets/planeaciondelaregion.jpg"
-import educacionycapacitacion from "../assets/educacionycapacitacion.jpg"
-import cuidadodelmbiente from "../assets/cuidadodelmbiente.jpg"
-import prevencion from "../assets/prevencion.jpg"
-import trabajoenequipo from "../assets/trabajoenequipo.jpg"
+import mini1 from "../assets/mini1.jpg"
+import mini2 from "../assets/mini2.jpg"
+import mini3 from "../assets/mini3.jpg"
+import mini4 from "../assets/mini4.jpg"
+import mini5 from "../assets/mini5.jpg"
+import mini6 from "../assets/mini6.jpg"
+import mini7 from "../assets/mini7.jpg"
+import mini8 from "../assets/mini1.jpg"
+
 
 export default function Proyectos() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div
+  className="min-h-screen text-white relative bg-cover bg-center bg-fixed"
+  style={{
+    backgroundImage: `url(${ejes})`,
+  }}
+>
+    <div className="absolute inset-0 bg-black/45"></div>
       <Navbar />
 
       <section
         id="proyectos"
-        className="relative z-10 px-10 md:px-24 py-32 bg-black/40 backdrop-blur-sm"
+        className="relative z-10 px-10 md:px-24 py-32"
       >
         <div className="max-w-7xl mx-auto">
 
@@ -33,143 +41,67 @@ export default function Proyectos() {
           </h3>
 
           <div className="grid md:grid-cols-3 gap-8">
+<div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini1}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={comunidadyparticipacion}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini2}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
-              <h4 className="text-2xl font-bold mb-4">
-                Comunidad y participación.
-              </h4>
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini3}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini4}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
-              <p className="text-white/60 leading-relaxed text-justify">
-                Impulsará proyectos que fortalecen a las comunidades, 
-                promueven la organización ciudadana y la participación de la gente.
-              </p>
-            </div>
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini5}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini6}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={masoportunidadeseconomicas}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini7}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
-              <h4 className="text-2xl font-bold mb-4">
-                Más oportunidades económicas.
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Apoyará el empleo, el emprendimiento y las actividades productivas para 
-                que las familias tengan mejores ingresos y oportunidades,
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={mejorcalidaddevida}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Mejor calidad de vida
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Realizará acciones para apoyar a personas en situación vulnerable 
-                y mejorar sus
-                condiciones de vida.
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={planeaciondelaregion}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Planeación de la Región
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Propondrá soluciones y proyectos para que la región crezca de manera ordenada, 
-                con mejor movilidad y desarrollo.
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={educacionycapacitacion}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Educación y capacitación
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Organizará cursos, talleres y programas que ayudan a las personas a aprender, 
-                capacitarse y salir adelante.
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={cuidadodelmbiente}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Cuidado del medio ambiente.
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Promoverá el uso responsable de los recursos y acciones 
-                para proteger el entorno y enfrentar el cambio climático.
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={prevencion}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Prevención de riesgos.
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Impulsará la cultura de protección civil para que las 
-                comunidades estén mejor preparadas ante emergencias.
-              </p>
-            </div>
-
-            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8 backdrop-blur-xl hover:scale-[1.03] transition duration-300">
-              <img
-                src={trabajoenequipo}
-                alt="Movilidad"
-                className="w-full h-52 object-cover rounded-2xl mb-6 hover:scale-105 transition duration-300"
-              />
-
-              <h4 className="text-2xl font-bold mb-4">
-                Trabajo en equipo.
-              </h4>
-
-              <p className="text-white/60 leading-relaxed text-justify">
-                Construirá alianzas con organizaciones, universidades.
-                empresas y gobiernos para lograr mayor impacto.
-              </p>
-            </div>
+            <div className="bg-black/40 border border-white/10 rounded-[30px] p-5 backdrop-blur-xl hover:scale-105 transition duration-300">
+  <img
+    src={mini8}
+    alt="Comunidad y participación"
+    className="w-full h-auto rounded-2xl"
+  />
+</div>
 
           </div>
         </div>
