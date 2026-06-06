@@ -19,21 +19,39 @@ export default function Observatorio() {
         </h1>
 
         <p className="text-xl text-white/80 max-w-4xl leading-relaxed text-justify">
-          Hoy en la Región de los Volcanes enfrentamos muchos problemas: movilidad, agua, seguridad, salud, falta de oportunidades económicas, pero hay algo que casi no se ve y que es igual de importante:
-        no tenemos información clara, actualizada y confiable sobre lo que realmente está pasando.
-        Muchas veces las decisiones se toman con datos desactualizados, incompletos o simplemente sin información suficiente.
-        Y cuando no hay datos, se termina decidiendo por ocurrencias, no por soluciones reales.
-        Eso tiene consecuencias muy concretas: programas que no funcionan, inversiones mal dirigidas y problemas que se repiten una y otra vez.
-        Por eso necesitamos un Observatorio Metropolitano de los Volcanes.
-        Un espacio donde podamos:
-      •	entender mejor lo que pasa en la región,
-      •	medir los problemas con datos reales,
-      •	y proponer soluciones bien sustentadas.
-        Pero no se trata solo de números.
-        Se trata de juntar tres cosas que hoy están separadas: la experiencia de la gente, el conocimiento técnico y la capacidad de proponer.
-        Porque nadie conoce mejor los problemas que quienes los viven todos los días, y nadie puede resolverlos sin información seria.
-        El observatorio es justamente eso: pasar de la opinión a la evidencia, y de la queja a la solución.
+          <p className="text-xl text-white/80 leading-relaxed text-justify mb-6">
+Hoy en la Región de los Volcanes enfrentamos muchos desafíos:
+movilidad, agua, seguridad, salud y oportunidades económicas.
+Sin embargo, existe un problema igual de importante: la falta de
+información clara, actualizada y confiable para comprender lo que
+realmente sucede en nuestra región.
+</p>
 
+<p className="text-xl text-white/80 leading-relaxed text-justify mb-6">
+Cuando no existen datos confiables, las decisiones suelen tomarse
+con información incompleta o desactualizada. Esto provoca programas
+poco efectivos, inversiones mal dirigidas y problemas que se repiten
+sin encontrar soluciones de fondo.
+</p>
+
+<div className="mb-8">
+  <h2 className="text-3xl font-bold mb-4">
+    El Observatorio Metropolitano de los Volcanes permitirá:
+  </h2>
+
+  <ul className="space-y-3 text-xl text-white/80">
+    <li>• Entender mejor lo que sucede en la región.</li>
+    <li>• Medir los problemas con datos reales y verificables.</li>
+    <li>• Proponer soluciones sustentadas en evidencia.</li>
+  </ul>
+</div>
+<p className="text-xl text-white/80 leading-relaxed text-justify">
+El Observatorio busca unir tres elementos fundamentales:
+la experiencia de la ciudadanía, el conocimiento técnico y la
+capacidad de proponer soluciones. Su propósito es transformar
+la opinión en evidencia, y la preocupación ciudadana en acciones
+concretas que contribuyan al desarrollo de la Región de los Volcanes.
+</p>
         </p>
       </div>
     </div>
