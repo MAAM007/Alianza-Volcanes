@@ -1,15 +1,16 @@
-import comisiones from "../assets/Comisiones.png"
+import comisiones1 from "../assets/Comisiones1.png"
 import Navbar from "../components/Navbar"
 
 export default function Comisiones() {
   return (
     <div
-      className="min-h-screen text-white bg-cover bg-center relative"
-      style={{
-        backgroundImage: `url(${comisiones})`,
-      }}
-    >
-      <div className="absolute inset-0 bg-black/50" />
+  className="min-h-screen text-white relative bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: `url(${comisiones1})`,
+    backgroundAttachment: "fixed",
+  }}
+>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
 
       <Navbar />
 
