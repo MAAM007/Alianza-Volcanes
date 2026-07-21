@@ -4,6 +4,9 @@ import "./index.css"
 import Contacto from "./pages/Contacto"
 import Proyectos from "./pages/Proyectos"
 import Reglamento from "./pages/Reglamento"
+import Educacion from "./pages/Educacion"
+import Movilidad from "./pages/Movilidad"
+import Turismo from "./pages/Turismo"
 
 import {
   BrowserRouter,
@@ -24,6 +27,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Route path="/contacto" element={<Contacto />} />
   <Route path="/proyectos" element={<Proyectos />} />
   <Route path="/reglamento" element={<Reglamento />} />
+  <Route path="/comisiones/educacion" element={<Educacion />} />
+  <Route path="/comisiones/movilidad" element={<Movilidad />} />
+  <Route path="/comisiones/turismo" element={<Turismo />} />
 </Routes>
 
     </BrowserRouter>
