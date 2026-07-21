@@ -6,9 +6,11 @@ export default function Comisiones() {
     <div
   className="min-h-screen text-white relative bg-cover bg-center bg-no-repeat"
   style={{
-    backgroundImage: `url(${comisiones1})`,
-    backgroundAttachment: "fixed",
-  }}
+  backgroundImage: `url(${comisiones1})`,
+  backgroundPosition: "center top",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+}}
 >
       <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
 
