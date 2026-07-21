@@ -219,7 +219,7 @@ export default function App() {
               <div className="p-6">
 
                 <h4 className="text-2xl font-bold mb-4">
-                  Bacheo en carretera México-Cuautla
+                  Foro Por La Solución Vial
                 </h4>
 
                 <p className="text-white/60 mb-6 text-justify">

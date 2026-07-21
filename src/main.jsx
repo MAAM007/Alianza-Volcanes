@@ -12,7 +12,7 @@ import {
 } from "react-router-dom"
 
 import App from "./App"
-import Observatorio from "./pages/Observatorio"
+import Comisiones from "./pages/Comisiones"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
       <Routes>
   <Route path="/" element={<App />} />
-  <Route path="/observatorio" element={<Observatorio />} />
+  <Route path="/comisiones" element={<Comisiones />} />
   <Route path="/contacto" element={<Contacto />} />
   <Route path="/proyectos" element={<Proyectos />} />
   <Route path="/reglamento" element={<Reglamento />} />

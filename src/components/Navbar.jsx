@@ -35,10 +35,10 @@ export default function Navbar() {
   </HashLink>
 
   <Link
-    to="/observatorio"
+    to="/comisiones"
     className="hover:text-white transition"
   >
-    Observatorio Metropolitano
+    Comisiones
   </Link>
 
   <HashLink smooth to="/#comites" className="hover:text-white transition">
