@@ -46,7 +46,7 @@ export default function Movilidad() {
       </main>
 
       {/* INFORMACIÓN */}
-<section className="relative py-28 overflow-hidden">
+<section className="relative py-12 overflow-hidden">
 
 {/* Fondo difuminado */}
 <div
