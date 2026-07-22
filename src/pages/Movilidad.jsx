@@ -1,25 +1,49 @@
 import Navbar from "../components/Navbar"
+import movilidadBg from "../assets/movilidad.png"
 
-export default function Movilidad() {
+export default function movilidad() {
   return (
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-gray-100 pt-28">
+      <main className="relative h-screen overflow-hidden">
 
-        <div className="max-w-7xl mx-auto px-6">
+  {/* Imagen de fondo */}
+  <div
+  className="absolute inset-0"
+  style={{
+    backgroundImage: `url(${movilidadBg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+/>
 
-          <h1 className="text-5xl font-bold mb-8">
-            Comisión de Educación y Cultura
-          </h1>
+  {/* Capa oscura */}
+  <div className="absolute inset-0 bg-black/55" />
 
-          <p className="text-xl leading-relaxed">
-            Aquí irá toda la información de la comisión.
-          </p>
+  {/* Contenido */}
+  <div className="relative z-10 h-full flex items-start px-10 md:px-24 pt-36">
+  <div className="max-w-4xl">
 
-        </div>
+    <div className="mb-6 text-white/70 tracking-[0.3em] uppercase text-sm">
+      Comisión Permanente
+    </div>
 
-      </main>
+    <h1 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8 text-white">
+  Movilidad
+  <br />
+  y Trasporte
+</h1>
+
+    <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
+  Formando comunidades con conocimiento, identidad y futuro.
+</p>
+
+  </div>
+
+</div>
+</main>
     </>
   )
 }
