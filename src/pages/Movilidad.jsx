@@ -39,19 +39,6 @@ export default function Movilidad() {
               y Transporte
             </h1>
 
-          <p
-  className="text-lg text-gray-600 leading-10"
-  style={{ textAlign: "justify" }}
->
-  Nuestra convicción es clara: los grandes problemas no se resuelven con
-  discursos, sino con diálogo, coordinación y trabajo conjunto entre
-  ciudadanía, empresarios y gobierno. Impulsamos una agenda que permita
-  fortalecer la conectividad regional mediante proyectos estratégicos,
-  mejorando los tiempos de traslado, promoviendo la inversión y generando
-  mejores oportunidades de desarrollo económico y social para los 14
-  municipios que conforman la Región de los Volcanes.
-</p>
-
           </div>
 
         </div>
